@@ -57,6 +57,7 @@ LDAE
 │   │   ├── train
 │   │   ├── val
 ```
+We provide unofficial annotations in .json format for CrowdHuman already contained in the repository `data/crowdhuman/annotations/`
 
 ## Run
 ### Evaluation
