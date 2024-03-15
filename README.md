@@ -45,7 +45,7 @@ export PYTHONPATH=`pwd`:$PYTHONPATH
 ```
 
 
-### Prepare the dataset
+### Dataset folder hierarchy
 
 ```text
 LDAE
@@ -57,7 +57,7 @@ LDAE
 │   │   ├── train
 │   │   ├── val
 ```
-We provide unofficial annotations in .json format for CrowdHuman already contained in the repository `data/crowdhuman/annotations/`
+We provide unofficial annotations in .json format for CrowdHuman already contained in the repository `data/crowdhuman/annotations/`, which are used in the previous works, such as [Pedestron](https://github.com/hasanirtiza/Pedestron/tree/master?tab=readme-ov-file).
 
 ## Run
 ### Evaluation
@@ -71,8 +71,8 @@ sh tools/test.sh  projects/configs/LDAE_rcnn/rcnn_LDAE.py <path_to_checkpoint> 8
 you can have evaluation result:
 {'bbox_mAP': 94.5, 'mMR': 38.5, 'recall': 98.4}
 
-### Train
-Training code will be updated soon
+### Training code
+Data preparation and training code will be updated as soon as organized.
 
 
 ## Acknowledgement
