@@ -72,8 +72,9 @@ you can have evaluation result:
 {'bbox_mAP': 94.5, 'mMR': 38.5, 'recall': 98.4}
 
 ### Training code
-Data preparation and training code will be updated as soon as organized.
-
+```shell
+sh tools/train.sh  projects/configs/LDAE_rcnn/rcnn_LDAE.py 8 --eval bbox
+```
 
 ## Acknowledgement
 
