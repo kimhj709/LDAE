@@ -73,7 +73,7 @@ you can have evaluation result:
 
 ### Training code
 ```shell
-sh tools/train.sh  projects/configs/LDAE_rcnn/rcnn_LDAE.py 8 --eval bbox
+sh tools/train.sh  projects/configs/LDAE_rcnn/rcnn_LDAE.py 8 ./exp
 ```
 
 ## Acknowledgement
